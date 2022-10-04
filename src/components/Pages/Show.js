@@ -5,7 +5,7 @@ const Show = ({ show }) => {
 
     const navigate = useNavigate();
     const { id } = show.show;
-    console.log(id);
+    console.log(show);
 
     // console.log(show.show.id)
     const handleDetails = p => {
