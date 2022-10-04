@@ -12,8 +12,8 @@ const Shows = () => {
     }, [])
 
     return (
-        <div>
-            <div>
+        <div className='m-2'>
+            <div className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-2'>
                 {
                     shows.map(show => <Show
                         key={show.show.id}
